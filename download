@@ -1,0 +1,22 @@
+# Dependencies / build artifacts
+node_modules/
+dist/
+.vite/
+__pycache__/
+*.pyc
+
+# Generated database (regenerate with: python3 generate_data.py)
+*.db
+
+# OS / tooling
+.DS_Store
+.playwright-mcp/
+
+# Large source dumps (not needed in the repo)
+Datathon 2026*.html
+
+# Original blank submission template (the FILLED deck in trinetra/submission/ is kept)
+KSP Datathon 2026 _ Prototype Submission Template.pptx
+
+# Build zip is regenerable from scripts/make_zip.py
+TRINETRA_prototype.zip
